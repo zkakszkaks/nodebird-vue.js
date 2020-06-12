@@ -1,0 +1,51 @@
+<!--
+[01]
+cd ch1/front
+npm init
+
+package name: (front) vue-nodebird-front
+그다음 다 엔터
+
+[02] VUE, nuxt  설치
+npm i vue nuxt
+
+[03] 첫 번째 숫제는 Vue, Nuxt, Vuetify 공식 문서 읽기
+https://vuejs.org/v2/guide/
+https://ko.nuxtjs.org/guide/
+
+[04]
+메인페이지, 프로필 페이지, 회원가입 페이지를 만듭니다.
+/ch1/front/pages 폴더 만들기 (다른 이름 안된다.)
+index.vue
+signup.vue
+profile.vue
+
+nuxt 뷰위에서 뷰의 기능을 확장한 프레임 워크 (웹사이트를 위해서)
+웹사이트들은 컴포넌트 보다는 페이지 중심
+컴포넌트가 아닌 페이지들을 위해서 따로 폴더를 마련해놈.
+페이지 폴더 안에 있는 컴포넌트들은 페이지 컴포넌트로 친다.
+자동으로 넉스트에서 /pages/*.vue를 페이지로 만들어 준다.
+
+index.vue: 메인 화면
+profile.vue : 프로필
+signup.vue: 회원가입 페이지
+
+nodebird.com - 메인 페이지 
+nodebird.com/signup - 회원가입 페이지
+nodebird.com/profile - 프로필 페이지
+
+주소가 바뀐다.
+이렇게 넣어두면(pages 폴더에 넣어두면) 자동으로 웹사이트 주소와 연결이 된다.
+
+[05]
+웹프로그래밍을 할때는 개발 모드와 배포 모드가 있다
+package.json  에 추가
+  "scripts": {
+    "dev": 
+  }
+
+npm run dev <-- 실행 명령어
+
+// Developer eXpreience 개발자 경험 : 개발자 들이 개발하기 편하다.
+
+-->
